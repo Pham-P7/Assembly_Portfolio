@@ -5,3 +5,4 @@ Tutorialspoint Assembly tutorials: https://www.tutorialspoint.com/assembly_progr
 Intel Developer x86 documents: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html <br />
 University of Virginia documents: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html <br />
 Flat Assembler (FASM compiler & docs): https://flatassembler.net/ <br />
+NASM compiler: https://www.nasm.us/ <br />
