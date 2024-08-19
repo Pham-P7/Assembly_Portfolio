@@ -7,3 +7,5 @@ University of Virginia documents: https://www.cs.virginia.edu/~evans/cs216/guide
 Flat Assembler (FASM compiler & docs): https://flatassembler.net/ <br />
 NASM compiler: https://www.nasm.us/ <br />
 nand2tetris course: https://www.nand2tetris.org/course <br />
+godbolt online compiler: https://godbolt.org/ <br />
+rjhcoding tutorials: http://www.rjhcoding.com/avr-asm-tutorials.php <br />
