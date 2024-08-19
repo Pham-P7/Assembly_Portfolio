@@ -6,3 +6,4 @@ Intel Developer x86 documents: https://www.intel.com/content/www/us/en/developer
 University of Virginia documents: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html <br />
 Flat Assembler (FASM compiler & docs): https://flatassembler.net/ <br />
 NASM compiler: https://www.nasm.us/ <br />
+nand2tetris course: https://www.nand2tetris.org/course <br />
