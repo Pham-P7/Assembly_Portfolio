@@ -6,7 +6,6 @@ Intel Developer x86 documents: https://www.intel.com/content/www/us/en/developer
 University of Virginia documents: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html <br />
 Flat Assembler (FASM compiler & docs): https://flatassembler.net/ <br />
 NASM compiler: https://www.nasm.us/ <br />
-nand2tetris course: https://www.nand2tetris.org/course <br />
 Assembly Online Compiler: https://onecompiler.com/assembly <br />
 godbolt online C++ to Asemmbly compiler: https://godbolt.org/ <br />
 rjhcoding tutorials: http://www.rjhcoding.com/avr-asm-tutorials.php <br />
