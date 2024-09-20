@@ -24,4 +24,4 @@ name_table: ;hint/name table
 kernel32_name: db "KERNEL32.DLL", 0
 kernel32_iat: ;import address table for KERNEL32
      ExitProcess dq rva _ExitProcess_Name
-     dq 0 ;end of KERNEL32's IAT
+     dq 0 ;end of KERNEL32's IAT-
