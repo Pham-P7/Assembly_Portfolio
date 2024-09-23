@@ -13,6 +13,7 @@
   [Microsoft Learning documentation for MASM compiler (ml64.exe)](https://learn.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=msvc-170)<br />
   [Microsoft Learning documentation for Assembly](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)<br />
   [Retro Assembler documentation](https://enginedesigns.net/download/retroassembler.html)<br />
+  [fasm newbie guide](https://board.flatassembler.net/topic.php?t=21886)<br />
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
