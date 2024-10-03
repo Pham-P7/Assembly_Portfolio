@@ -1,4 +1,4 @@
-use64
+use64 ;program to print out a numbers byte value in left to right order
 format PE64 NX GUI 6.0
 macro showbits_rtl arg {
       val = arg
