@@ -19,6 +19,8 @@
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
+## Stack Overflow Forum: <br />
+  [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
 ## Other tools: <br />
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
