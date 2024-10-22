@@ -17,6 +17,7 @@
   [jump - "J" Instructions](https://www.dei.isep.ipp.pt/~nsilva/ensino/ArqC/ArqC1998-1999/nguide/ng-j.htm#:~:text=Used%20after%20a%20CMP%20or%20SUB%20instruction%2C%20JL%20transfers%20control,bytes%20of%20the%20next%20instruction.)<br />
   [MS MASM Guide](https://www.pcjs.org/documents/books/mspl13/masm/mpguide/)<br/>
   [MS MASM Error Guide](https://learn.microsoft.com/en-us/cpp/assembler/masm/ml-error-messages?view=msvc-170)<br />
+  [Miko MASM Guide](https://www.mikrocontroller.net/attachment/450367/MASM61PROGUIDE.pdf)<br />
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
