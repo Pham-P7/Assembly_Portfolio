@@ -16,12 +16,16 @@
   [fasm newbie guide](https://board.flatassembler.net/topic.php?t=21886)<br />
   [jump - "J" Instructions](https://www.dei.isep.ipp.pt/~nsilva/ensino/ArqC/ArqC1998-1999/nguide/ng-j.htm#:~:text=Used%20after%20a%20CMP%20or%20SUB%20instruction%2C%20JL%20transfers%20control,bytes%20of%20the%20next%20instruction.)<br />
   [MS MASM Guide](https://www.pcjs.org/documents/books/mspl13/masm/mpguide/)<br/>
+  [MS MASM Error Guide](https://learn.microsoft.com/en-us/cpp/assembler/masm/ml-error-messages?view=msvc-170)<br />
+  [Miko MASM Guide](https://www.mikrocontroller.net/attachment/450367/MASM61PROGUIDE.pdf)<br />
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
 ## Stack Overflow Forum: <br />
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
+## youtube videos: <br />
+  [assembly videos](https://www.youtube.com/watch?v=bpZv5bOi5dE)<br />
 ## Other tools: <br />
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
