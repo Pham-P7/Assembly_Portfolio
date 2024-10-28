@@ -4,7 +4,6 @@
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
   [Microsoft documents WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)<br />
-  [Retro Assembler](https://enginedesigns.net/retroassembler/)<br />
 ## Documentations and Other Information: <br />
   [x86 oracle documentation](https://docs.oracle.com/cd/E19253-01/817-5477/817-5477.pdf)<br />
   [Intel Developer x86 documents](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)<br />
@@ -25,7 +24,7 @@
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
 ## youtube videos: <br />
-  [assembly videos](https://www.youtube.com/watch?v=bpZv5bOi5dE)<br />
+  [assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
 ## Other tools: <br />
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
