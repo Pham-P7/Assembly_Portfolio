@@ -1,5 +1,5 @@
 # Assembly_Portfolio
-## My Resorces: <br />
+# My Resorces: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
