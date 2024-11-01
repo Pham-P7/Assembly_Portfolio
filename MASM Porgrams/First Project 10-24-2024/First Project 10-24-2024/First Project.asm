@@ -37,7 +37,6 @@ main proc
 	push	offset msg
 	call	printf
 	push	0
-	mov eax, debug
 	;call exit
 main endp
 end
