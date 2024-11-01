@@ -1,5 +1,9 @@
 # Assembly_Portfolio
-## My Resorces: <br />
+# Important Information: <br />
+## How to compile in MASM: <br />
+  1. enter in terminal -> ml /c /coff "filename.ASM" <br />
+  2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
+# My Resorces: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
@@ -20,9 +24,10 @@
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
-## Stack Overflow Forum: <br />
+## Helpful Forums: <br />
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
+  [how to compile in ml from cmd](https://masm32.com/board/index.php?topic=4822.0)<br />
 ## youtube videos: <br />
   [assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
 ## Other tools: <br />
