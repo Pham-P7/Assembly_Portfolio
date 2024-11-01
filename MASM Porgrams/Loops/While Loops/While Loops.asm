@@ -3,9 +3,9 @@
 .stack 4096
 
 .data
-msg BYTE "Hello, World!",0
-num1 dword 2 ;variable num1 with space dword with the value 0
-comp dword 5; variable named comp (comparitor) with the value of 10
+msg BYTE "Hello, World! ",0
+num1 dword 0 ;variable num1 with space dword with the value 0
+comp dword 1000000000; variable named comp (comparitor) with the value of 10
 debug dword 8
 
 .code
@@ -28,6 +28,9 @@ main proc
 
 	cmp eax,ebx ;compares (cmp) 2 arguements for bit equality
 	jae next ; jae (jump if above or equal) jumps to the "next" block (exits the loop)
+	push	offset msg
+	call	printf
+	push	0
 	inc eax; increments eax register by 1
 	jmp top ;unconditional jump to the "top" block (restarts the loop)
 
@@ -36,6 +39,6 @@ main proc
 	call	printf
 	push	0
 	mov eax, debug
-	call exit
+	;call exit
 main endp
-end main
+end
