@@ -19,9 +19,6 @@ extrn exit:near
 
 public main
 main proc
-	push	offset msg
-	call	printf
-	push	0
 	mov eax, num1
 	mov ebx, comp
 	top: ;while loop aka (while num1 < comp)

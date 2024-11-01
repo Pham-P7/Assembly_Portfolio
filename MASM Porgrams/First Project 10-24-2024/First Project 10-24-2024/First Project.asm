@@ -4,7 +4,7 @@
 
 .data
 num1 dword 0 ;variable num1 with space dword with the value 0
-comp dword 1000000000; variable named comp (comparitor) with the value of 10
+comp dword 10; variable named comp (comparitor) with the value of 10
 debug dword 8
 
 .code
