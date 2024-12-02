@@ -29,6 +29,9 @@
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
   [how to compile in ml from cmd](https://masm32.com/board/index.php?topic=4822.0)<br />
   [taking input](https://stackoverflow.com/questions/20804135/how-to-get-user-input-in-assembly)<br />
+  [making functions w/ return](https://stackoverflow.com/questions/29175080/how-to-declare-a-function-that-returns-value-and-has-parameters-x86-assembly-mas)<br />
+  [declaring a function w/ parameters](https://stackoverflow.com/questions/15345645/define-a-function-with-parameters-in-masm-assembly-language)<br />
+  [explaination of offset pushing](https://stackoverflow.com/questions/17634244/x86-assembly-push-offset-and-mnemonics#:~:text=This%20directive%20is%20from%20the,are%20not%20segments%2C%20but%20sections.)<br />
 ## youtube videos: <br />
   [assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
