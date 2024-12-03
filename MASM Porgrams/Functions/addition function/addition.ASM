@@ -3,9 +3,9 @@
 .stack 4096
 
 .data
-num1 BYTE 1
-num2 BYTE 1
-check DWORD ?
+num1 DWORD 1
+num2 DWORD 1
+check BYTE "its working" ,0
 
 .code
 includelib libucrt.lib
@@ -18,11 +18,10 @@ extrn exit:near
 
 public main
 
-addition proc var1: BYTE, var2: BYTE
+addition proc var1: DWORD, var2: DWORD
     xor eax, eax
     add eax, var1
     add eax, var2
-    mov [check], eax
     push offset check
     call printf
     push 0
@@ -31,10 +30,12 @@ addition endp
 
 
 main proc
-    push offset num1
-    push num2
+    mov ebx, [num1]
+    mov ecx, [num2]
+    push ebx 
+    push ecx
     call addition
-    pause: ;pauses the program by keeping it in a loop to check the output
-        jmp pause
+    top: ;pauses the program by keeping it in a loop to check the output
+    jmp top
 main endp
 end
