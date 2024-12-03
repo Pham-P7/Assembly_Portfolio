@@ -2,12 +2,6 @@
 .model flat, stdcall, c
 .stack 4096
 
+
 .data
-number BYTE 10
-.code
-
-public main
-main proc
-
-main endp
-end
+numberStr db 16 DUP (0) ;defining the numberStr variable with 16 bits
