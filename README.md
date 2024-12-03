@@ -3,7 +3,7 @@
 ## How to compile in MASM: <br />
   1. enter in terminal -> ml /c /coff "filename.ASM" <br />
   2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
-# My Resorces: <br />
+# Resorces Used: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
@@ -29,11 +29,19 @@
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
   [how to compile in ml from cmd](https://masm32.com/board/index.php?topic=4822.0)<br />
   [taking input](https://stackoverflow.com/questions/20804135/how-to-get-user-input-in-assembly)<br />
+  [making functions w/ return](https://stackoverflow.com/questions/29175080/how-to-declare-a-function-that-returns-value-and-has-parameters-x86-assembly-mas)<br />
+  [declaring a function w/ parameters](https://stackoverflow.com/questions/15345645/define-a-function-with-parameters-in-masm-assembly-language)<br />
+  [explaination of offset pushing](https://stackoverflow.com/questions/17634244/x86-assembly-push-offset-and-mnemonics#:~:text=This%20directive%20is%20from%20the,are%20not%20segments%2C%20but%20sections.)<br />
+  [how to decompose an integer to print](https://stackoverflow.com/questions/28353789/cant-figure-out-how-to-print-a-number-in-masm32)<br />
+  [how to print numbers the lazy masm way](https://stackoverflow.com/questions/12031703/x86-assembly-masm32-output-multiplied-number-produces-junk-characters)<br />
 ## youtube videos: <br />
-  [assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
+  [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
+  [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
+  [in depth binary based assembly videos](https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC)<br />
+  [standard modern programming standards within assembly](https://www.youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
 ## Other tools: <br />
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
-  [jammin](https://music.youtube.com/watch?v=yKOfiSKdlyA&list=PLpF9tZdBGYAgf4_sbiLgbj5cuSt0hC6vK)<br />
+  [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
