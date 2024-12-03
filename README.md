@@ -42,4 +42,4 @@
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
-  [jammin](https://music.youtube.com/watch?v=yKOfiSKdlyA&list=PLpF9tZdBGYAgf4_sbiLgbj5cuSt0hC6vK)<br />
+  [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
