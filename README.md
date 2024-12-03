@@ -34,6 +34,7 @@
   [explaination of offset pushing](https://stackoverflow.com/questions/17634244/x86-assembly-push-offset-and-mnemonics#:~:text=This%20directive%20is%20from%20the,are%20not%20segments%2C%20but%20sections.)<br />
   [how to decompose an integer to print](https://stackoverflow.com/questions/28353789/cant-figure-out-how-to-print-a-number-in-masm32)<br />
   [how to print numbers the lazy masm way](https://stackoverflow.com/questions/12031703/x86-assembly-masm32-output-multiplied-number-produces-junk-characters)<br />
+  [why you must terminate a string with null](https://stackoverflow.com/questions/12031703/x86-assembly-masm32-output-multiplied-number-produces-junk-characters)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
