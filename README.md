@@ -40,3 +40,8 @@
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
   [jammin](https://music.youtube.com/watch?v=yKOfiSKdlyA&list=PLpF9tZdBGYAgf4_sbiLgbj5cuSt0hC6vK)<br />
+https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW
+
+https://youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC&si=3gs1J4LDrJDFxE2K
+
+https://youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb&si=XUc_2ODA3QM_OBnA
