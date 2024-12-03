@@ -3,7 +3,7 @@
 ## How to compile in MASM: <br />
   1. enter in terminal -> ml /c /coff "filename.ASM" <br />
   2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
-# My Resorces: <br />
+# Resorces Used: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
