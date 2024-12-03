@@ -33,15 +33,13 @@
   [declaring a function w/ parameters](https://stackoverflow.com/questions/15345645/define-a-function-with-parameters-in-masm-assembly-language)<br />
   [explaination of offset pushing](https://stackoverflow.com/questions/17634244/x86-assembly-push-offset-and-mnemonics#:~:text=This%20directive%20is%20from%20the,are%20not%20segments%2C%20but%20sections.)<br />
 ## youtube videos: <br />
-  [assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
+  [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
+  [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
+  [in depth binary based assembly videos](https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC)<br />
+  [standard modern programming standards within assembly](https://www.youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
 ## Other tools: <br />
   [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
   [jammin](https://music.youtube.com/watch?v=yKOfiSKdlyA&list=PLpF9tZdBGYAgf4_sbiLgbj5cuSt0hC6vK)<br />
-https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW
-
-https://youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC&si=3gs1J4LDrJDFxE2K
-
-https://youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb&si=XUc_2ODA3QM_OBnA
