@@ -3,7 +3,7 @@
 .stack 4096
 
 .data
-num1 DWORD 1
+num1 DWORD 2
 num2 DWORD 1
 check BYTE "its working" ,0
 
@@ -22,9 +22,12 @@ addition proc var1: DWORD, var2: DWORD
     xor eax, eax
     add eax, var1
     add eax, var2
+    cmp eax, 2
+    jne false
     push offset check
     call printf
     push 0
+    false:
     ret
 addition endp
 
