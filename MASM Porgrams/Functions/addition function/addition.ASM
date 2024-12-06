@@ -5,7 +5,7 @@
 .data
 num1 DWORD 1
 num2 DWORD 1
-check BYTE "its working" ,012
+check BYTE "its working" ,012 ;012 is new line character
 
 .code
 includelib libucrt.lib
