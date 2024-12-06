@@ -3,9 +3,9 @@
 .stack 4096
 
 .data
-num1 DWORD 2
+num1 DWORD 1
 num2 DWORD 1
-check BYTE "its working" ,0
+check BYTE "its working" ,012
 
 .code
 includelib libucrt.lib
@@ -37,6 +37,7 @@ main proc
     mov ecx, [num2]
     push ebx 
     push ecx
+    call addition
     call addition
     top: ;pauses the program by keeping it in a loop to check the output
     jmp top
