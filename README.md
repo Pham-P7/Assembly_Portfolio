@@ -9,6 +9,7 @@
   [NASM compiler](https://www.nasm.us/)<br />
   [Microsoft documents WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)<br />
 ## Documentations and Other Information: <br />
+  [ASCII table}(https://www.asciitable.com/)<br />
   [x86 oracle documentation](https://docs.oracle.com/cd/E19253-01/817-5477/817-5477.pdf)<br />
   [Intel Developer x86 documents](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)<br />
   [University of Virginia documents](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)<br />
@@ -46,5 +47,3 @@
   [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
   [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
-## for those wanting to learn assembly<br />
-  [online therapy](https://www.betterhelp.com/online-therapy/?utm_content=nb_rsa_control&utm_source=AdWords&utm_medium=Search_PPC_c&utm_term=telehealth%20mental%20health_b&utm_content=143057211515&network=g&placement=&target=&matchtype=b&utm_campaign=18564847329&ad_type=text&adposition=&kwd_id=kwd-296049030402&gad_source=1&gclid=Cj0KCQiAx9q6BhCDARIsACwUxu5z87whHXF9lnKPGK6kRLPHY4p1LH_aI08H064okkLDQNmhp1GwNdQaAm8XEALw_wcB)<br />
