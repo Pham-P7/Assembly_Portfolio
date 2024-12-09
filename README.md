@@ -9,7 +9,7 @@
   [NASM compiler](https://www.nasm.us/)<br />
   [Microsoft documents WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)<br />
 ## Documentations and Other Information: <br />
-  [ASCII table}(https://www.asciitable.com/)<br />
+  [ASCII table](https://www.asciitable.com/)<br />
   [x86 oracle documentation](https://docs.oracle.com/cd/E19253-01/817-5477/817-5477.pdf)<br />
   [Intel Developer x86 documents](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)<br />
   [University of Virginia documents](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)<br />
