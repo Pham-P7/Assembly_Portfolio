@@ -9,6 +9,7 @@
   [NASM compiler](https://www.nasm.us/)<br />
   [Microsoft documents WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)<br />
 ## Documentations and Other Information: <br />
+  [ASCII table](https://www.asciitable.com/)<br />
   [x86 oracle documentation](https://docs.oracle.com/cd/E19253-01/817-5477/817-5477.pdf)<br />
   [Intel Developer x86 documents](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)<br />
   [University of Virginia documents](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)<br />
@@ -18,6 +19,7 @@
   [Retro Assembler documentation](https://enginedesigns.net/download/retroassembler.html)<br />
   [fasm newbie guide](https://board.flatassembler.net/topic.php?t=21886)<br />
   [jump - "J" Instructions](https://www.dei.isep.ipp.pt/~nsilva/ensino/ArqC/ArqC1998-1999/nguide/ng-j.htm#:~:text=Used%20after%20a%20CMP%20or%20SUB%20instruction%2C%20JL%20transfers%20control,bytes%20of%20the%20next%20instruction.)<br />
+  [Philadelphia Uni. jump instructions](https://www.philadelphia.edu.jo/academics/qhamarsheh/uploads/Lecture%2018%20Conditional%20Jumps%20Instructions.pdf)<br />
   [MS MASM Guide](https://www.pcjs.org/documents/books/mspl13/masm/mpguide/)<br/>
   [MS MASM Error Guide](https://learn.microsoft.com/en-us/cpp/assembler/masm/ml-error-messages?view=msvc-170)<br />
   [Miko MASM Guide](https://www.mikrocontroller.net/attachment/450367/MASM61PROGUIDE.pdf)<br />
@@ -41,8 +43,5 @@
   [in depth binary based assembly videos](https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC)<br />
   [standard modern programming standards within assembly](https://www.youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
-## Other tools: <br />
-  [Assembly Online Compiler](https://onecompiler.com/assembly)<br />
-  [godbolt online C++ to Asemmbly compiler](https://godbolt.org/)<br />
 ## the jams <br />
   [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
