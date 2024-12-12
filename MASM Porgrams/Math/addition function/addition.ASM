@@ -38,7 +38,6 @@ main proc
     push ebx 
     push ecx
     call addition
-    call addition
     top: ;pauses the program by keeping it in a loop to check the output
     jmp top
 main endp
