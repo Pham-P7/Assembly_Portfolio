@@ -24,7 +24,8 @@ public main
 main proc
     mov eax, a
     mov ebx, b
-    div ebx
+    xor edx, edx ;turns edx to value 0
+    DIV ebx ;divides eax:edx by ebx
 
     ;cmp eax, 1
     ;jne false
