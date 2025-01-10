@@ -19,13 +19,13 @@ public main
 division proc;divides var1 by var2 using recursion
     xor ecx, ecx
     body:
+        cmp eax, ebx
+        jl done
         sub eax, ebx
-        cmp eax, 0
-        jnle cont
-        ret
-        cont:
-            add ecx, 1
-            jmp body
+        add ecx, 1
+        jmp body
+        done:
+            ret
 division endp
 
 main proc
@@ -33,7 +33,7 @@ main proc
     mov ebx, 2
     call division
     cmp ecx, 2
-    jl right
+    je right
     ret
     right:
         push offset check
