@@ -3,7 +3,7 @@
 .stack 4096
 
 .data
-check BYTE "true", 012
+number DWORD 48, 012, 0 ;array of number 0, new line, terminate string
 
 .code
 includelib libucrt.lib
@@ -16,7 +16,7 @@ extrn exit:near
 
 public main
 
-division proc;divides var1 by var2 using recursion
+division proc;divides var1 by var2 using reiterration
     xor ecx, ecx
     body:
         cmp eax, ebx
@@ -29,15 +29,12 @@ division proc;divides var1 by var2 using recursion
 division endp
 
 main proc
-    mov eax, 4
-    mov ebx, 2
+    mov eax, 15
+    mov ebx, 3
     call division
-    cmp ecx, 2
-    je right
-    ret
-    right:
-        push offset check
-        call printf
-        push 0
+    add number, ecx
+    push offset number
+    call printf
+    push 0
 main endp
 end
