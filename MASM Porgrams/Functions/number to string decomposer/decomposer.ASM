@@ -4,12 +4,7 @@
 
 
 .data
-givenNumber BYTE 19
-places BYTE ?
-n BYTE 0 ;power
-index BYTE ?
-Itt BYTE ?
-ASCII_value BYTE 48
+number DWORD 
 
 .code
 includelib libucrt.lib
