@@ -38,11 +38,15 @@
   [how to print numbers the lazy masm way](https://stackoverflow.com/questions/12031703/x86-assembly-masm32-output-multiplied-number-produces-junk-characters)<br />
   [why you must terminate a string with null](https://stackoverflow.com/questions/12031703/x86-assembly-masm32-output-multiplied-number-produces-junk-characters)<br />
   [how to divide](https://stackoverflow.com/questions/37009569/division-in-assembly-masm)<br />
+  [how to use arrays](https://stackoverflow.com/questions/26132914/arrays-in-masm-assembly-very-confused-beginner)<br />
+  [how to access array elements](https://stackoverflow.com/questions/22213147/array-access-in-masm)<br />
+  [how to use the DUP instruction](https://stackoverflow.com/questions/52901358/x86-masm-beginner-question-about-dup-storage)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
   [in depth binary based assembly videos](https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC)<br />
   [standard modern programming standards within assembly](https://www.youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
+  ["A Closer Loop at Arrays"](https://www.youtube.com/watch?v=d5nqwlOXFJs)<br />
 ## the jams <br />
   [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
