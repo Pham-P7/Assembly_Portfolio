@@ -5,7 +5,7 @@
 .data
 array DWORD 0,1,2,3,4
 print DWORD 48
-
+space DWORD 32
 .code
 includelib libucrt.lib
 includelib legacy_stdio_definitions.lib
@@ -17,18 +17,19 @@ extrn exit:near
 
 public main
 main proc
-    mov eax, -1
+    mov eax, 0
     mov esi, offset array
     itt:
         mov ebx, [esi]
+        add esi, 4
         add print, ebx
-        add esi, SIZE(DWORD)
         push offset print
         call printf
-        push 0
+        push offset space
+        call printf
         mov print, 48
         inc eax
-        cmp eax, 5
+        cmp esi, offset array + 20
         jl itt
 main endp
 end
