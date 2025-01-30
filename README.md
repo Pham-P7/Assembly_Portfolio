@@ -41,6 +41,8 @@
   [how to use arrays](https://stackoverflow.com/questions/26132914/arrays-in-masm-assembly-very-confused-beginner)<br />
   [how to access array elements](https://stackoverflow.com/questions/22213147/array-access-in-masm)<br />
   [how to use the DUP instruction](https://stackoverflow.com/questions/52901358/x86-masm-beginner-question-about-dup-storage)<br />
+  [access array pointers](https://stackoverflow.com/questions/2934827/accessing-array-in-masm)<br />
+  [lea instructions](https://stackoverflow.com/questions/1699748/what-is-the-difference-between-mov-and-lea)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
