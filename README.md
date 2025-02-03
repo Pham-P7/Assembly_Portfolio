@@ -43,6 +43,7 @@
   [how to use the DUP instruction](https://stackoverflow.com/questions/52901358/x86-masm-beginner-question-about-dup-storage)<br />
   [access array pointers](https://stackoverflow.com/questions/2934827/accessing-array-in-masm)<br />
   [lea instructions](https://stackoverflow.com/questions/1699748/what-is-the-difference-between-mov-and-lea)<br />
+  [mul instructions](https://stackoverflow.com/questions/40893026/mul-function-in-assembly)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
