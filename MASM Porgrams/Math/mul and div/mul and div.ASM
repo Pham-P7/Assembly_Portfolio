@@ -3,7 +3,7 @@
 .stack 4096
 
 .data
-print DWORD 48,0
+print DWORD 48
 .code
 includelib libucrt.lib
 includelib legacy_stdio_definitions.lib
@@ -15,10 +15,18 @@ extrn exit:near
 
 public main
 main proc
-    movzx eax, 4/2
+    ;mov eax, 2
+    ;mov ebx, 3
+    ;mul ebx
+    ;add print, eax
+    ;push offset print
+    ;call printf
+    mov print, 48
+    div ebx
     add print, eax
     push offset print
     call printf
-    push 0
+
+
 main endp
 end
