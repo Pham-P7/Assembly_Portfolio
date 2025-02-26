@@ -4,7 +4,10 @@
 
 .data
 string DWORD 10 DUP(48) ; set a size 10 array with 0s
-number DWORD 1444
+one DWORD 0
+two DWORD 1
+temp DWORD 0
+number DWORD 0
 print DWORD 48, 0
 base DWORD 1000000000
 .code
@@ -17,12 +20,19 @@ extrn printf:near
 extrn exit:near
 
 public main
-
-main proc
+decomp proc
     mov esi, offset string
-    sub esi, 4
-    top:;;
+    clearer:
+        mov eax, 48
+        mov [esi], eax
         add esi, 4
+        cmp esi, offset string + 40
+        jl clearer
+
+    sub esi, 40
+    ;sub esi, 4
+    top:;;
+
         mov eax, [number] ;put the current value into eax
         mov ebx, [base]
         ;;sub edx, edx
@@ -44,12 +54,13 @@ main proc
         mov ebx, 10
         call division
         mov [base], ecx
-        cmp esi, offset string + 36
+        add esi, 4
+        cmp esi, offset string + 40
         jl top
         ;;
 
     mov eax, 0
-    sub esi, 36
+    sub esi, 40
 
     skiper:
         mov ebx, [esi]
@@ -58,7 +69,6 @@ main proc
         add esi, 4
         jmp skiper
         done:
-            
     printer:
         mov ebx, [esi]
         mov print, ebx
@@ -69,10 +79,9 @@ main proc
         add esi, 4
         cmp esi, offset string + 40
         jl printer
-        
-        ;;
-
-main endp
+    mov eax, 1000000000
+    mov [base], eax
+decomp endp
 division proc;divides var1 by var2 using reiterration
     xor ecx, ecx
     body:
@@ -82,7 +91,6 @@ division proc;divides var1 by var2 using reiterration
         add ecx, 1
         jmp body
         done:
-            ret
 division endp
 multiplication proc;multiplies var1 by var2 using reiterration
     xor ecx, ecx
@@ -94,6 +102,55 @@ multiplication proc;multiplies var1 by var2 using reiterration
         add edx, eax
         jmp body
         done:
-            ret
 multiplication endp
+
+main proc
+    mov eax, one
+    add print, eax
+    push offset print
+    call printf
+    push 0
+    ;
+    mov eax, 32
+    mov print, eax
+    push offset print
+    call printf
+    push 0
+    ;
+    mov eax, two
+    mov print, 48
+    add print, eax
+    push offset print
+    call printf
+    push 0
+    ;
+    mov eax, 32
+    mov print, eax
+    push offset print
+    call printf
+    push 0
+    mov eax, 48
+    mov print, eax
+    ;
+    start:
+        mov eax, one
+        mov temp, eax
+        mov eax, two
+        add temp, eax
+        mov one, eax
+        mov eax, temp
+        mov two, eax
+        mov temp, 0
+        mov number, eax
+        call decomp
+        ;
+        mov eax, 32
+        mov print, eax
+        push offset print
+        call printf
+        push 0
+        mov eax, 48
+        mov print, eax
+        jmp start
+main endp
 end
