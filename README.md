@@ -1,9 +1,11 @@
 # Assembly_Portfolio
+## Hi, my name is Phat Pham and this is a cumulative repository of all my Assembly work.
+## This portfolio includes the resources I used to progress through my learning and a collection of my projects used throughout my learning.
 # Important Information: <br />
 ## How to compile in MASM: <br />
   1. enter in terminal -> ml /c /coff "filename.ASM" <br />
   2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
-# Resorces Used: <br />
+# Resources Used: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
