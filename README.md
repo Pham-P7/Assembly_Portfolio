@@ -1,5 +1,5 @@
 # Assembly_Portfolio
-Hi, my name is Phat Pham and this is a cumulative repository of all my Assembly work. <br />
+Hi, my name is Phat Pham and this is a cumulative repository of all my Assembly work throughout my self learning trial. <br />
 This portfolio includes the resources I used to progress through my learning and a collection of my projects used throughout my learning. <br />
 You may use this as insperation for a similar project however I DO NOT GIVE YOU PERMISSION TO COPY ANY OF MY PROGRAMS. <br />
 # Important Information: <br />
