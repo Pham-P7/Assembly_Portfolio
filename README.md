@@ -3,9 +3,9 @@ Hi, my name is Phat Pham and this is a cumulative repository of all my Assembly 
 This portfolio includes the resources I used to progress through my learning and a collection of my projects used throughout my learning. <br />
 You may use this as insperation for a similar project however I DO NOT GIVE YOU PERMISSION TO COPY ANY OF MY PROGRAMS. <br />
 # Important Information: <br />
-## How to compile in MASM: <br />
-  1. enter in terminal -> ml /c /coff "filename.ASM" <br />
-  2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
+## How to compile with MASM if you encounter a linking error: <br />
+  1. enter in the terminal -> ml /c /coff "filename.ASM" <br />
+  2. enter in the terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
 # Resources Used: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
