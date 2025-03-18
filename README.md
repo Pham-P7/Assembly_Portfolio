@@ -26,6 +26,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [MS MASM Guide](https://www.pcjs.org/documents/books/mspl13/masm/mpguide/)<br/>
   [MS MASM Error Guide](https://learn.microsoft.com/en-us/cpp/assembler/masm/ml-error-messages?view=msvc-170)<br />
   [Miko MASM Guide](https://www.mikrocontroller.net/attachment/450367/MASM61PROGUIDE.pdf)<br />
+  [MASM operators reference](https://learn.microsoft.com/en-us/cpp/assembler/masm/operators-reference?view=msvc-170#logical-and-shift)<br />
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
