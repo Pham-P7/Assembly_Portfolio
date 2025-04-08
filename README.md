@@ -1,9 +1,12 @@
 # Assembly_Portfolio
+Hi, my name is Phat Pham and this is a cumulative repository of all my Assembly work throughout my self learning trial. <br />
+This portfolio includes the resources I used to progress through my learning and a collection of my projects used throughout my learning. <br />
+You may use this as insperation for a similar project however I DO NOT GIVE YOU PERMISSION TO COPY ANY OF MY PROGRAMS. <br />
 # Important Information: <br />
-## How to compile in MASM: <br />
-  1. enter in terminal -> ml /c /coff "filename.ASM" <br />
-  2. enter in terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
-# Resorces Used: <br />
+## How to compile with MASM if you encounter a linking error: <br />
+  1. enter in the terminal -> ml /c /coff "filename.ASM" <br />
+  2. enter in the terminal -> link /SUBSYSTEM:CONSOLE "filename.obj" <br />
+# Resources Used: <br />
 ## Download links: <br />
   [Flat Assembler (FASM compiler & docs)](https://flatassembler.net/)<br />
   [NASM compiler](https://www.nasm.us/)<br />
@@ -23,9 +26,11 @@
   [MS MASM Guide](https://www.pcjs.org/documents/books/mspl13/masm/mpguide/)<br/>
   [MS MASM Error Guide](https://learn.microsoft.com/en-us/cpp/assembler/masm/ml-error-messages?view=msvc-170)<br />
   [Miko MASM Guide](https://www.mikrocontroller.net/attachment/450367/MASM61PROGUIDE.pdf)<br />
+  [MASM operators reference](https://learn.microsoft.com/en-us/cpp/assembler/masm/operators-reference?view=msvc-170#logical-and-shift)<br />
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
+  [University of Idaho Russian Peasent Algorithm Visualizer](https://webpages.uidaho.edu/drbc/cs395/4_RussianPeasant.html)<br />
 ## Helpful Forums: <br />
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
@@ -44,8 +49,9 @@
   [access array pointers](https://stackoverflow.com/questions/2934827/accessing-array-in-masm)<br />
   [lea instructions](https://stackoverflow.com/questions/1699748/what-is-the-difference-between-mov-and-lea)<br />
   [mul instructions](https://stackoverflow.com/questions/40893026/mul-function-in-assembly)<br />
-  ["russian peasent algorithm](https://stackoverflow.com/questions/28006137/masm-assembly-8086-implementing-division-without-use-div-instruction-for-any-n)<br />
+  ["russian peasent algorithm"](https://stackoverflow.com/questions/28006137/masm-assembly-8086-implementing-division-without-use-div-instruction-for-any-n)<br />
   [movxz instructions](https://stackoverflow.com/questions/24107730/how-can-i-add-two-registers-contents-of-different-size-to-form-an-effective-add)<br />
+  [bit shifting](https://stackoverflow.com/questions/13425365/variable-bit-shift)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
