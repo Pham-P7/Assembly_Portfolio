@@ -4,10 +4,8 @@
 
 .data
 string DWORD 10 DUP(48) ; set a size 10 array with 0s
-one DWORD 0
-two DWORD 1
-temp DWORD 0
-number DWORD 0
+number DWORD 5
+result DWORD 1
 print DWORD 48, 0
 base DWORD 1000000000
 .code
@@ -20,19 +18,32 @@ extrn printf:near
 extrn exit:near
 
 public main
+main proc
+    call factor
+    mov eax, result
+    mov number, eax
+    call decomp
+main endp
+
+factor proc
+    mov eax, result
+    mov ebx, number
+    call multiplication
+    mov result, edx
+    sub ebx, 1
+    mov number, ebx
+    cmp number, 1
+    jpe done
+    call factor
+    done:
+        ret
+factor endp
+
 decomp proc
     mov esi, offset string
-    clearer:
-        mov eax, 48
-        mov [esi], eax
-        add esi, 4
-        cmp esi, offset string + 40
-        jl clearer
-
-    sub esi, 40
-    ;sub esi, 5
+    sub esi, 4
     top:;;
-
+        add esi, 4
         mov eax, [number] ;put the current value into eax
         mov ebx, [base]
         ;;sub edx, edx
@@ -54,13 +65,12 @@ decomp proc
         mov ebx, 10
         call division
         mov [base], ecx
-        add esi, 4
-        cmp esi, offset string + 40
+        cmp esi, offset string + 36
         jl top
         ;;
 
     mov eax, 0
-    sub esi, 40
+    sub esi, 36
 
     skiper:
         mov ebx, [esi]
@@ -69,6 +79,7 @@ decomp proc
         add esi, 4
         jmp skiper
         done:
+            
     printer:
         mov ebx, [esi]
         mov print, ebx
@@ -79,80 +90,32 @@ decomp proc
         add esi, 4
         cmp esi, offset string + 40
         jl printer
-    mov eax, 1000000000
-    mov [base], eax
-    sub esi, 40
+        
+        ;;
+
 decomp endp
 division proc;divides var1 by var2 using reiterration
-    xor ecx, ecx
+    mov ecx, 0
     body:
         cmp eax, ebx
         jl done
         sub eax, ebx
         add ecx, 1
         jmp body
-        done:
+    done:
+        ret
 division endp
 multiplication proc;multiplies var1 by var2 using reiterration
-    xor ecx, ecx
-    xor edx, edx
+    ;xor ecx, ecx
+    ;xor edx, edx
     body:
-        add ecx, 1
-        cmp ecx, ebx
-        jg done
-        add edx, eax
+    ;    add ecx, 1
+    ;    add edx, eax
+    ;    cmp ecx, ebx
+    ;    jg done
+    cmp ebx, 0
         jmp body
         done:
+            ret
 multiplication endp
-
-main proc
-    mov eax, one
-    add print, eax
-    push offset print
-    call printf
-    push 0
-    ;
-    mov eax, 32
-    mov print, eax
-    push offset print
-    call printf
-    push 0
-    ;
-    mov eax, two
-    mov print, 48
-    add print, eax
-    push offset print
-    call printf
-    push 0
-    ;
-    mov eax, 32
-    mov print, eax
-    push offset print
-    call printf
-    push 0
-    mov eax, 48
-    mov print, eax
-    ;
-    start:
-        mov eax, one
-        mov temp, eax
-        mov eax, two
-        add temp, eax
-        mov one, eax
-        mov eax, temp
-        mov two, eax
-        mov temp, 0
-        mov eax, two
-        mov number, eax
-        call decomp
-        ;
-        mov eax, 32
-        mov print, eax
-        push offset print
-        call printf
-        push 0
-        mov eax, 48
-        mov print, eax
-        jmp start
-main endp
 end

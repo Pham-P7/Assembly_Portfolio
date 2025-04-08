@@ -4,7 +4,8 @@
 
 .data
 string DWORD 10 DUP(48) ; set a size 10 array with 0s
-number DWORD 4352978
+number DWORD 3
+shift BYTE 2
 print DWORD 48, 0
 base DWORD 1000000000
 .code
@@ -18,6 +19,10 @@ extrn exit:near
 
 public main
 main proc
+    mov eax, [number]
+    mov cl, [shift] ;must use cl or flat number
+    shr eax, cl
+    mov number, eax
     call decomp
 main endp
 decomp proc
@@ -29,22 +34,19 @@ decomp proc
         mov ebx, [base]
         ;;sub edx, edx
         call division ; edx has result of eax div ebx
-        mov [number], eax
         ;;mov edx, eax
         add [esi], ecx
-
-        ;;mov eax, ecx
+        mov eax, ecx
         ;;mov eax, edx
 
         ;;mov eax, edx
         ;;mov ecx, [base]
-        ;;call multiplication
-        ;;mov ebx, edx
-        ;;mov eax, [number]
-        ;;sub eax, ebx
-        ;;mov [number], eax
+        call multiplication
+        mov ebx, edx
+        mov eax, [number]
+        sub eax, ebx
+        mov [number], eax
         ;;sub edx, edx
-
         mov eax, [base]
         mov ebx, 10
         call division
@@ -55,15 +57,14 @@ decomp proc
 
     mov eax, 0
     sub esi, 36
-    mov ebx, 1000000000
-    mov [base], ebx
-    skiper:
-        mov ebx, [esi]
-        cmp ebx, 48
-        jne done
-        add esi, 4
-        jmp skiper
-        done:
+    mov [base], 1000000000
+    ;skiper:
+    ;    mov ebx, [esi]
+    ;    cmp ebx, 48
+    ;    jne done
+    ;    add esi, 4
+    ;    jmp skiper
+    ;    done:
             
     printer:
         mov ebx, [esi]
@@ -84,7 +85,6 @@ decomp proc
     call printf
     push 0
     mov print, 48
-    sub esi, 40
     ret
 decomp endp
 
@@ -99,4 +99,16 @@ division proc;divides var1 by var2 using reiterration
     done:
         ret
 division endp
+multiplication proc
+    xor edx, edx
+    body:
+        cmp eax, 0
+        je done
+        add edx, ebx
+        shl ebx, 1
+       shr eax, 1
+        jmp body
+        done:
+            ret
+multiplication endp
 end
