@@ -30,6 +30,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
 ## Guides and Tutorials: <br />
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
+  [University of Idaho Russian Peasent Algorithm Visualizer](https://webpages.uidaho.edu/drbc/cs395/4_RussianPeasant.html)<br />
 ## Helpful Forums: <br />
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
