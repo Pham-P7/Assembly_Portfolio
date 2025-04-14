@@ -59,5 +59,3 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [standard modern programming standards within assembly](https://www.youtube.com/playlist?list=PLMa5a9Dh6SlhJq4wCH_CLSdfRaAbuJTzb)<br />
   [how to get input using MASM](https://www.youtube.com/watch?v=E7UBQYJn-gk)<br />
   ["A Closer Loop at Arrays"](https://www.youtube.com/watch?v=d5nqwlOXFJs)<br />
-## the jams <br />
-  [jammin](https://music.youtube.com/playlist?list=PLpF9tZdBGYAjGa4jtbzK9pZE0OwCkwf12)<br />
