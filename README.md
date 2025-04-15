@@ -54,6 +54,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [movxz instructions](https://stackoverflow.com/questions/24107730/how-can-i-add-two-registers-contents-of-different-size-to-form-an-effective-add)<br />
   [bit shifting](https://stackoverflow.com/questions/13425365/variable-bit-shift)<br />
   [push, pop, and ret functions](https://stackoverflow.com/questions/57089912/how-to-use-pop-and-ret-in-masm)<br />
+  [how to flip all bits](https://forums.parallax.com/discussion/90970/how-to-invert-all-bits-in-asm-not-instruction)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
