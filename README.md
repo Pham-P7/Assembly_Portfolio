@@ -17,6 +17,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [Intel Developer x86 documents](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)<br />
   [University of Virginia documents](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)<br />
   [Wikipedia Assembly page](https://en.wikipedia.org/wiki/X86_assembly_language)<br />
+  [Wikipedia One's complement](https://en.wikipedia.org/wiki/Ones%27_complement)<br />
   [Microsoft Learning documentation for MASM compiler (ml64.exe)](https://learn.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=msvc-170)<br />
   [Microsoft Learning documentation for Assembly](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)<br />
   [Retro Assembler documentation](https://enginedesigns.net/download/retroassembler.html)<br />
