@@ -33,6 +33,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [Tutorialspoint Assembly tutorials](https://www.tutorialspoint.com/assembly_programming/index.htm)<br />
   [GPfault Assembly guide](https://gpfault.net/)<br />
   [University of Idaho Russian Peasent Algorithm Visualizer](https://webpages.uidaho.edu/drbc/cs395/4_RussianPeasant.html)<br />
+  [how to get 2's complement in assembly](https://amritoo.hashnode.dev/2s-complement-in-assembly)<br />
 ## Helpful Forums: <br />
   [while, do while, and for loops](https://stackoverflow.com/questions/28665528/while-do-while-for-loops-in-assembly-language-emu8086)<br />
   [how to print a string](https://stackoverflow.com/questions/41574768/how-to-print-a-string-in-fasm)<br />
@@ -56,6 +57,7 @@ You may use this as insperation for a similar project however I DO NOT GIVE YOU 
   [bit shifting](https://stackoverflow.com/questions/13425365/variable-bit-shift)<br />
   [push, pop, and ret functions](https://stackoverflow.com/questions/57089912/how-to-use-pop-and-ret-in-masm)<br />
   [how to flip all bits](https://forums.parallax.com/discussion/90970/how-to-invert-all-bits-in-asm-not-instruction)<br />
+  [neg instructions on negative numbers](https://masm32.com/board/index.php?topic=7919.0)<br />
 ## youtube videos: <br />
   [intro to assembly videos](https://youtube.com/playlist?list=PLU6DPNTD99vpzpVA7BhCo-ZGym-bDcjEj&si=Nwn-fTdkENNr5Tdn)<br />
   [masm32 programming video](https://youtube.com/playlist?list=PLE6kld48wGGPEq1mDnFVfbLZ81gcP3nJj&si=htwN_Q_CfxFrmsyW)<br />
